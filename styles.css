@@ -33,11 +33,10 @@ body {
     padding: 0px 20px 0px 20px;
     font-family: Roboto;
     font-style: normal;
-    color: white;
+    color: green;
   }
 
   /* Change background on mouse-over */
   .menu-box a:hover {
-    background: darkgrey;
     color: whitesmoke;
   }
