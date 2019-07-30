@@ -13,19 +13,32 @@ body {
     padding: 0;
     z-index: 100;
   }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    display: block;
-    color: black;
+
+.menu-box {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    line-height: 80px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
   }
-  
+
+.menu-box a {
+    display: inline-block;
+    height: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0px 20px 0px 20px;
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
+  }
+
   /* Change background on mouse-over */
-  .navbar a:hover {
+  .menu-box a:hover {
     background: darkgrey;
     color: whitesmoke;
   }
